@@ -72,6 +72,30 @@
         </div>
       </div>
 
+      <!-- Product 4 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/product4.jpg" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">পণ্য ৪</h5>
+            <p class="card-text">দাম: ১২০০ টাকা</p>
+            <a href="#order" class="btn btn-primary">অর্ডার করুন</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/product5.jpg" class="card-img-top" alt="Product 5">
+          <div class="card-body">
+            <h5 class="card-title">পণ্য ৫</h5>
+            <p class="card-text">দাম: ১৫০০ টাকা</p>
+            <a href="#order" class="btn btn-primary">অর্ডার করুন</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -92,6 +116,8 @@
           <option value="পণ্য ১">পণ্য ১</option>
           <option value="পণ্য ২">পণ্য ২</option>
           <option value="পণ্য ৩">পণ্য ৩</option>
+          <option value="পণ্য ৪">পণ্য ৪</option>
+          <option value="পণ্য ৫">পণ্য ৫</option>
         </select>
       </div>
       <div class="mb-3">
