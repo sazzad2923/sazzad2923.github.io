@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>চৌধুরী’স শপ - থিমড সাইট</title>
+  <title>চৌধুরী’স শপ - Online Store</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">চৌধুরী’স শপ</a>
@@ -17,8 +18,8 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link active" href="#">হোম</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">সার্ভিস</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">যোগাযোগ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">পণ্য</a></li>
+        <li class="nav-item"><a class="nav-link" href="#order">অর্ডার</a></li>
       </ul>
     </div>
   </div>
@@ -26,50 +27,85 @@
 
 <header class="text-center p-5 bg-light">
   <h1>স্বাগতম চৌধুরী’স শপ এ!</h1>
-  <p>ফ্রি থিম সহ কাস্টমাইজড ওয়েবসাইট</p>
+  <p>আপনার প্রিয় পণ্য অর্ডার করুন অনলাইনে</p>
 </header>
 
 <main class="container my-5">
-  <section id="services">
-    <h2>আমাদের সার্ভিস</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card mb-3">
+
+  <section id="products">
+    <h2 class="mb-4 text-center">আমাদের পণ্যসমূহ</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Product 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/product1.jpg" class="card-img-top" alt="Product 1">
           <div class="card-body">
-            <h5 class="card-title">পণ্য বিক্রয়</h5>
-            <p class="card-text">আপনি সহজেই আমাদের পণ্য কিনতে পারবেন।</p>
+            <h5 class="card-title">পণ্য ১</h5>
+            <p class="card-text">দাম: ৫০০ টাকা</p>
+            <a href="#order" class="btn btn-primary">অর্ডার করুন</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card mb-3">
+
+      <!-- Product 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/product2.jpg" class="card-img-top" alt="Product 2">
           <div class="card-body">
-            <h5 class="card-title">ডেলিভারি সাপোর্ট</h5>
-            <p class="card-text">দেশজুড়ে দ্রুত ডেলিভারি সাপোর্ট।</p>
+            <h5 class="card-title">পণ্য ২</h5>
+            <p class="card-text">দাম: ৭৫০ টাকা</p>
+            <a href="#order" class="btn btn-primary">অর্ডার করুন</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card mb-3">
+
+      <!-- Product 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/product3.jpg" class="card-img-top" alt="Product 3">
           <div class="card-body">
-            <h5 class="card-title">কাস্টমার কেয়ার</h5>
-            <p class="card-text">২৪/৭ গ্রাহক সহায়তা।</p>
+            <h5 class="card-title">পণ্য ৩</h5>
+            <p class="card-text">দাম: ১০০০ টাকা</p>
+            <a href="#order" class="btn btn-primary">অর্ডার করুন</a>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
-  <section id="contact" class="my-5">
-    <h2>যোগাযোগ করুন</h2>
-    <p>📧 ইমেইল: hello@example.com</p>
-    <p>📞 ফোন: 01XXXXXXXXX</p>
-    <p>🌐 ফেসবুক: fb.com/yourpage</p>
+  <section id="order" class="my-5">
+    <h2 class="mb-4 text-center">অর্ডার ফর্ম</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST" class="mx-auto" style="max-width:500px;">
+      <div class="mb-3">
+        <label for="name" class="form-label">আপনার নাম</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">ইমেইল</label>
+        <input type="email" class="form-control" id="email" name="_replyto" required>
+      </div>
+      <div class="mb-3">
+        <label for="product" class="form-label">পছন্দের পণ্য</label>
+        <select class="form-select" id="product" name="product" required>
+          <option value="পণ্য ১">পণ্য ১</option>
+          <option value="পণ্য ২">পণ্য ২</option>
+          <option value="পণ্য ৩">পণ্য ৩</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="quantity" class="form-label">পরিমাণ</label>
+        <input type="number" class="form-control" id="quantity" name="quantity" min="1" required>
+      </div>
+      <button type="submit" class="btn btn-success w-100">অর্ডার পাঠান</button>
+    </form>
   </section>
+
 </main>
 
 <footer class="text-center py-4 bg-primary text-white">
-  © 2025 Chowdhury’s Shop
+  © ২০২৫ চৌধুরী’স শপ
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
