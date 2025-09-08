@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>চৌধুরীর দোকান</h1>
+    <h1>চৌধুরী'র দোকান</h1>
     <nav>
       <a href="#">হোম</a>
       <a href="#services">অনলাইন শপ</a>
