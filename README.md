@@ -1,55 +1,66 @@
- <!doctype html>
-<html lang="bn">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>আমার জীবনী</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার প্রথম ওয়েবসাইট</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: yellow;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-<header class="text-center py-5 bg-primary text-white">
-  <h1>সাজ্জাদ লিমিটেড</h1>
-  <p>একজন উদ্যমী ও প্রফেশনাল</p>
-</header>
+    <header>
+        <h1>আমার ওয়েবসাইটে স্বাগতম</h1>
+    </header>
 
-<main class="container my-5">
+    <nav>
+        <a href="#">হোম</a>
+        <a href="#">আমাদের সম্পর্কে</a>
+        <a href="#">যোগাযোগ</a>
+    </nav>
 
-  <section id="about" class="mb-5">
-    <h2>আমার সম্পর্কে</h2>
-    <p>আমি একজন উদ্যমী ব্যক্তি, প্রযুক্তি ও ডিজাইনে আগ্রহী। আমার লক্ষ্য নতুন কিছু সৃষ্টি করা এবং মানুষের জন্য কার্যকর সমাধান তৈরি করা।</p>
-  </section>
+    <section>
+        <h2>হ্যালো!</h2>
+        <p>এটি একটি বেসিক ওয়েব ডিজাইনের উদাহরণ। এখানে HTML দিয়ে গঠন করা হয়েছে, আর CSS দিয়ে স্টাইল করা হয়েছে।</p>
+    </section>
 
-  <section id="education" class="mb-5">
-    <h2>শিক্ষাগত যোগ্যতা</h2>
-    <ul>
-      <li>HSC - GPA 5.00, Science</li>
-      <li>Bachelor (Honours) - Zoology, ongoing</li>
-    </ul>
-  </section>
+    <footer>
+        <p>&copy; 2025 আমার ওয়েবসাইট</p>
+    </footer>
 
-  <section id="experience" class="mb-5">
-    <h2>অভিজ্ঞতা</h2>
-    <ul>
-      <li>ফ্রিল্যান্সিং প্রজেক্টে ওয়েব ডিজাইন ও ডেভেলপমেন্ট</li>
-      <li>ব্যক্তিগত ব্লগ ও প্রোজেক্ট পরিচালনা</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="mb-5">
-    <h2>যোগাযোগ</h2>
-    <p>📧 ইমেইল: hello@example.com</p>
-    <p>📞 ফোন: 01XXXXXXXXX</p>
-    <p>🌐 ফেসবুক: fb.com/yourpage</p>
-  </section>
-
-</main>
-
-<footer class="text-center py-4 bg-dark text-white">
-  © ২০২৫ সাজ্জাদ লিমিটেড
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
