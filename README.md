@@ -55,7 +55,8 @@
 
     <section>
         <h2>হ্যালো!</h2>
-        <p>এটি একটি বেসিক ওয়েব ডিজাইনের উদাহরণ। এখানে HTML দিয়ে গঠন করা হয়েছে, আর CSS দিয়ে স্টাইল করা হয়েছে।</p>
+        <p>this is my fast web site made by sazzad chowdhury and he is my new boss
+        . we dont knnow about himn hen he was best office worker he aa।</p>
     </section>
 
     <footer>
